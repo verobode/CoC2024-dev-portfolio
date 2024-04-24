@@ -1,0 +1,161 @@
+body {
+    background-color: #181a1b;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+.navbar-toggler-icon {
+    color: #955aac !important;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 15%; /* Agregamos un padding izquierdo al navbar para que el contenido comience al mismo nivel que las secciones debajo */
+    padding-right: 15px; /* Agregamos un padding derecho al navbar para que el contenido termine al mismo nivel que las secciones debajo */
+}
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0; /* Eliminamos el padding del navbar-container para que el contenido esté alineado */
+}
+
+/* .navbar-toggler-icon {
+    color: #955aac !important;
+}
+
+.header .navbar-container {
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    align-items: center;
+}
+
+.navbar-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+.navcolor,
+h3 {
+    color: #955aac;
+}
+
+.navcolor {
+    font-weight: bold;
+}
+
+.navcolor:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.spancolor {
+    color: #955aac;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: column;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navbar {
+    margin-bottom: 15%;
+}
+
+/*modificaciones en la noche*/
+
+.hero-section {
+    margin-top: 80px;
+    margin-bottom: 10%;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.imagen {
+    position: relative;
+}
+
+.imagen img {
+    margin: auto;
+    padding: 10px 5%;
+    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.image {
+    border: 15px solid #955aac;
+    border-radius: 15%;
+    padding: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none; /* Elimina los estilos de la lista */
+    padding: 0; /* Elimina el espacio interior de la lista */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Agrega un margen inferior para separar los elementos de la lista */
+  }
+  
+
+
+.btn-outline-warning {
+    color: #955aac;
+    border-color: #955aac;
+    margin-top: 5px;
+}
+
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #955aac;
+    border-color: #955aac;
+}
+
+
+@media (max-width: 768px) {
+    .imagen img {
+        float: none;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-top: 40px; 
+        margin-bottom: 20px; 
+    }
+}
