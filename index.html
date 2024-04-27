@@ -17,7 +17,7 @@
 
   <header>
     <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid navbar-container d-flex justify-content-between align-items-center">
+      <div class="container-fluid navbar-container d-flex align-items-center">
         <div>
           <a class="navbar-brand me-4" href="#" style="color: #955aac; font-weight: bold;">VERONICA BODEMAN</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,10 +33,10 @@
           <div class="bg-dark p-4">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link navcolor" href="#">About</a>
+                <a class="nav-link navcolor" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navcolor" href="#">Skills</a>
+                <a class="nav-link navcolor" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link navcolor" href="#">Projects</a>
@@ -106,12 +106,12 @@
     <div class="row">
       <div class="col-md-3">
         <div class="image rounded">
-          <img src="./assets/img/v-portrait.jpg" class="img-fluid" width="400px" height="auto" alt="Veronica's picture">
+          <img src="./assets/img/v-about.png" class="img-fluid" width="400px" height="auto" alt="Veronica's picture">
         </div>
       </div>
       <div class="col-md-8">
         <div class="content">
-          <h2>My name is Veronica Bodeman</h2>
+          <h2 style="color:#955aac;">My name is Veronica Bodeman</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate neque inventore ullam voluptatibus
             similique. Repudiandae odio vel, quod velit reiciendis perspiciatis ipsa minus! Quidem porro, tempora
             officia eum debitis placeat.</p>
@@ -129,7 +129,7 @@
       </div>
       <!-- Mis Habilidades -->
       <div class="row mt-6">
-        <div class="col text-c">
+        <div class="col text-c" id="skills">
           <h2>My <span class="skill-color">Skills</span></h2>
         </div>
       </div>
@@ -201,38 +201,21 @@
   </section>
 
   <!-- Sección de calificaciones -->
-  <section class="container hero-section qualification last-section">
+  <section class="container hero-section qualification">
     <div class="row">
       <div>
-        <h2 class="text-center" style="color: #fff; padding-bottom: 50px;">My <span style="color:#955aac;">Qualification</span></h2>
+        <h2 class="text-center" style="color: #fff; padding-bottom: 50px;">My <span
+            style="color:#955aac;">Qualification</span></h2>
       </div>
       <!-- Columna de educación -->
       <div class="col md-6">
-        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <h2><i class="fas fa-graduation-cap" style="color:#955aac;"></i> IT Education</h2>
         <div class="qualification-content">
           <!-- educacion para agregar -->
           <div class="qualification-item">
             <div>
-              <h3>Fundamentos y lógica de la programación</h3>
-              <p>2022 - UDEMY</p>
-            </div>
-          </div>
-          <div class="qualification-item">
-            <div>
-              <h3>Diplomatura en Python</h3>
-              <p>2022 - UTN</p>
-            </div>
-          </div>
-          <div class="qualification-item">
-            <div>
-              <h3>Fullstack Javascript / Node Js</h3>
-              <p>2022 - Codo a Codo 4.0</p>
-            </div>
-          </div>
-          <div class="qualification-item">
-            <div>
-              <h3>Scrum y Agile</h3>
-              <p>2022 - AVENGA</p>
+              <h3>React JS FrontEnd 2023</h3>
+              <p>2023 - Codo a Codo 4.0 y Argentina Programa</p>
             </div>
           </div>
           <div class="qualification-item">
@@ -243,25 +226,48 @@
           </div>
           <div class="qualification-item">
             <div>
-              <h3>React JS FrontEnd 2023</h3>
-              <p>2023 - Codo a Codo 4.0 y Argentina Programa</p>
+              <h3>Fullstack Javascript / Node Js</h3>
+              <p>2022 - Codo a Codo 4.0</p>
+            </div>
+          </div>
+          <div class="qualification-item">
+            <div>
+              <h3>Diplomatura en Python</h3>
+              <p>2022 - UTN</p>
+            </div>
+          </div>
+          <div class="qualification-item">
+            <div>
+              <h3>Scrum y Agile</h3>
+              <p>2022 - AVENGA</p>
+            </div>
+          </div>
+          <div class="qualification-item">
+            <div>
+              <h3>Fundamentos y lógica de la programación</h3>
+              <p>2022 - UDEMY</p>
             </div>
           </div>
         </div>
       </div>
       <!-- Columna de experiencia -->
       <div class="col-md-6">
-        <h2><i class="fas fa-briefcase"></i> Experience</h2>
+        <h2><i class="fas fa-briefcase" style="color:#955aac;"></i> IT Experience</h2>
         <div class="qualification-content">
           <!-- acá agregar experiencias -->
           <div class="qualification-item">
             <div>
-              <h3>Nombre del Puesto</h3>
-              <p>Fecha de inicio - Fecha de finalización</p>
-              <p>Empresa</p>
+              <h3>Freelance Backend Developer</h3>
+              <p>2024 - UTN</p>
             </div>
           </div>
-          <!-- Repite este bloque para cada experiencia laboral -->
+          <div class="qualification-item">
+            <div>
+              <h3>QA Manual y Automation</h3>
+              <p>2022 - Avenga</p>
+            </div>
+          </div>
+          <!-- + experiencia laboral -->
         </div>
       </div>
     </div>
@@ -269,6 +275,51 @@
 
 
   <!-- MY PROJECTS -->
+  <section class="container">
+    <div class="text-center title-margin">
+      <h2>My <span style="color:#955aac;">Projects</span></h2>
+    </div>
+  </section>
+  <section class="container hero-section">
+    <div class="card-group">
+      <div class="card bg-dark">
+        <img src="./assets/img/pc1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #955aac;">A Form</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="https://verobode.github.io/formulario_arg_Frontend/">
+            <button type="button" class="btn btn-lg btn-outline-warning">See More</button>
+          </a>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <img src="./assets/img/pc2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #955aac;">A To do list</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="https://verobode.github.io/TiF-ToDo-List-App-AP/">
+            <button type="button" class="btn btn-lg btn-outline-warning">See More</button>
+          </a>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <img src="./assets/img/pc3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #955aac;">A calculator</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="https://verobode.github.io/calculadora_ArgPro/">
+            <button type="button" class="btn btn-lg btn-outline-warning">See More</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
   <!-- CONTACT -->
   <!-- SUBSCRIBE TO KNOW MY NEWS PROJECTS -->
 

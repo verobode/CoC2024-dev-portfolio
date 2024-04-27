@@ -65,12 +65,12 @@ h3 {
 }
 
 .navbar {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 
 .hero-section {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-bottom: 5%;
     font-size: 20px;
 }
@@ -127,6 +127,10 @@ ul li {
     border-color: #955aac;
 }
 
+.title-margin{
+    margin-bottom: 50px;
+}
+
 footer {
     background-color: #955aac;
     padding: 2rem 0;
@@ -171,7 +175,7 @@ footer {
   }
   
   .qualification h2 {
-    color: #955aac;
+    color: #fff;
   }
 
 .qualification-content {
@@ -185,7 +189,7 @@ footer {
 }
 
 .qualification-item i {
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 20px;
     color: #955aac;
 }
