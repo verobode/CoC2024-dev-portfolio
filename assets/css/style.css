@@ -58,6 +58,7 @@ h3 {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: column;
     max-width: 1500px;
     margin: 0 auto;
@@ -197,6 +198,13 @@ footer {
 .qualification-item .info {
     margin-left: 20px;
 }
+
+.special-card {
+    background-color: #181a1b;
+    color: #fff;
+    border: none;
+  }
+
 
 @media (max-width: 768px) {
     .qualification-item {
