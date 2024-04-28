@@ -25,3 +25,16 @@ function textoTipeo(elementId, text, speed) {
 document.addEventListener("DOMContentLoaded", function(){
     textoTipeo("textoTipeo", "Web Developer ", 200)
 });
+
+//Form
+
+function submitForm() {
+  const email = document.getElementById('exampleInputEmail1').value;
+  const password = document.getElementById('exampleInputPassword1').value;
+  
+  if (email.trim() === '' || password.trim() === '') {
+    alert('Please, fill all the fields');
+    return;
+  }
+  document.getElementById('successAlert').style.display = 'block';
+}
