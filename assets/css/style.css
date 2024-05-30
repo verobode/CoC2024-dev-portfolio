@@ -211,7 +211,7 @@ footer {
     border: none;
 }
 
-.bottom-line{
+.bottom-line {
     border-bottom: 2px solid #955aac;
 }
 
@@ -240,6 +240,20 @@ footer {
         margin-left: 20px;
     }
 }
+
+#mensajevista {
+    max-width: 300px;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+#tipoCambio {
+    border: 2px solid #955aac; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
 
 .last-section {
     max-width: 1200px;
